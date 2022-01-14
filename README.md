@@ -2,7 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, install dependencies:
+First, clone this repository:
+
+```bash
+git clone https://github.com/rafamenegheti/hyperlinks.git
+```
+
+or, if you use SSH: 
+
+```bash
+git clone git@github.com:rafamenegheti/hyperlinks.git
+```
+
+Install dependencies:
 
 ```bash
 yarn
