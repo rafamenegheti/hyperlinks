@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+
+    Image {
+        display: inline;
+    }
+}
