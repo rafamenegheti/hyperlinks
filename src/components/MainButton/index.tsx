@@ -1,6 +1,6 @@
 
 
-import styles from "./styles.module.scss"
+
 import Link from "next/link"
 import { Container } from './styles'
 
@@ -12,7 +12,7 @@ interface MainButtonProps {
 export function MainButton({ text, href }: MainButtonProps) {
     
     return(
-        <Container className={styles.container}>
+        <Container >
         <Link href={href} passHref>
             <p className="pbutton">{text}</p>
         </Link>

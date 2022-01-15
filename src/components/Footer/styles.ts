@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const FooterStyled = styled.footer`
- position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+   position:absolute;
+   bottom: 0;
+   width:100%;
+   height: auto;
   padding: 1rem;
+  clear: both;
+  margin-top: 2rem;
 
   background-color: var(--blue-light);
   color: white;
@@ -14,7 +16,7 @@ export const FooterStyled = styled.footer`
   p {
       font-size: 0.7rem;
       color: var(--blue-gray)
-  }
+  } 
 
   .footerContainer {
     margin-left: 10rem;
@@ -55,5 +57,5 @@ export const FooterStyled = styled.footer`
         }
       };
 
-  }
+  } 
 `

@@ -1,7 +1,6 @@
 import { BigCard } from "../BigCard";
 import { SmallCard } from "../SmallCard";
 import { CardContainer } from './styles'
-import { FiInstagram } from 'react-icons/fi'
 
 
 export function HomeAnimation() {
@@ -10,7 +9,7 @@ export function HomeAnimation() {
         <BigCard />
         <CardContainer>
             <li>
-            <SmallCard image="instagram.png"/>
+            <SmallCard image="instagram.svg"/>
             </li>
             <li>
             <SmallCard image="facebook.png"/>
@@ -25,10 +24,10 @@ export function HomeAnimation() {
             <SmallCard image="youtube.png"/>
             </li>
             <li>
-            <SmallCard image="twitter.png" height={18}/>
+            <SmallCard image="twitter.svg" height={25} width={25}/>
             </li>
             <li>
-            <SmallCard image="gmail.png"/>
+            <SmallCard image="gmail.svg"/>
             </li>
             <li>
             <SmallCard image="reddit.svg"/>
